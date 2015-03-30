@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\bin\Debug\SSRSTest.dll" total="14" errors="14" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-03-30" time="14:58:29">
+  <environment nunit-version="2.6.2.12296" clr-version="4.0.30319.18444" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.2\bin" machine-name="GBTAMD5099" user="cg4t" user-domain="EUROPE1" />
+  <culture-info current-culture="en-GB" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\bin\Debug\SSRSTest.dll" executed="True" result="Failure" success="False" time="1.175" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="SSRSTest" executed="True" result="Failure" success="False" time="1.158" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="ReportDeploymentTest" executed="True" result="Failure" success="False" time="1.134" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="DoesReportExist" executed="True" result="Failure" success="False" time="1.126" asserts="0">
+                <categories>
+                  <category name="SSRSTest" />
+                </categories>
+                <results>
+                  <test-case name="SSRSTest.ReportDeploymentTest.DoesReportExist(135,&quot;/Fixed Income/Dealers/FI Turnover New Issues&quot;,null)" executed="True" result="Error" success="False" time="1.037" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.ArgumentNullException : Value cannot be null.
+Parameter name: uriString]]></message>
+                      <stack-trace><![CDATA[at System.Uri..ctor(String uriString)
+at System.Web.Services.Protocols.WebClientProtocol.set_Url(String value)
+at SSRSTest.RSWebReference.ReportExecutionService.set_Url(String value) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\Web References\RSWebReference\Reference.cs:line 148
+at SSRSTest.ReportTester.ReportExists(String reportPath, String ssrsUrl) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\ReportTester.cs:line 15
+at SSRSTest.ReportDeploymentTest.DoesReportExist(Int32 reportNumber, String reportPath, String ssrsUrl) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\Program.cs:line 126
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="SSRSTest.ReportDeploymentTest.DoesReportExist(167,&quot;/IIS/Custody Cash/Custodian Fund Balances Report&quot;,null)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.ArgumentNullException : Value cannot be null.
+Parameter name: uriString]]></message>
+                      <stack-trace><![CDATA[at System.Uri..ctor(String uriString)
+at System.Web.Services.Protocols.WebClientProtocol.set_Url(String value)
+at SSRSTest.RSWebReference.ReportExecutionService.set_Url(String value) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\Web References\RSWebReference\Reference.cs:line 148
+at SSRSTest.ReportTester.ReportExists(String reportPath, String ssrsUrl) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\ReportTester.cs:line 15
+at SSRSTest.ReportDeploymentTest.DoesReportExist(Int32 reportNumber, String reportPath, String ssrsUrl) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\Program.cs:line 126
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="SSRSTest.ReportDeploymentTest.DoesReportExist(231,&quot;/Oversight MI/Front Office Transaction Volumes&quot;,null)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.ArgumentNullException : Value cannot be null.
+Parameter name: uriString]]></message>
+                      <stack-trace><![CDATA[at System.Uri..ctor(String uriString)
+at System.Web.Services.Protocols.WebClientProtocol.set_Url(String value)
+at SSRSTest.RSWebReference.ReportExecutionService.set_Url(String value) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\Web References\RSWebReference\Reference.cs:line 148
+at SSRSTest.ReportTester.ReportExists(String reportPath, String ssrsUrl) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\ReportTester.cs:line 15
+at SSRSTest.ReportDeploymentTest.DoesReportExist(Int32 reportNumber, String reportPath, String ssrsUrl) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\Program.cs:line 126
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="SSRSTest.ReportDeploymentTest.DoesReportExist(233,&quot;/Quants/Quants Account Summary&quot;,null)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.ArgumentNullException : Value cannot be null.
+Parameter name: uriString]]></message>
+                      <stack-trace><![CDATA[at System.Uri..ctor(String uriString)
+at System.Web.Services.Protocols.WebClientProtocol.set_Url(String value)
+at SSRSTest.RSWebReference.ReportExecutionService.set_Url(String value) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\Web References\RSWebReference\Reference.cs:line 148
+at SSRSTest.ReportTester.ReportExists(String reportPath, String ssrsUrl) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\ReportTester.cs:line 15
+at SSRSTest.ReportDeploymentTest.DoesReportExist(Int32 reportNumber, String reportPath, String ssrsUrl) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\Program.cs:line 126
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="SSRSTest.ReportDeploymentTest.DoesReportExist(390,&quot;/Risk/Non Standard Settlements Report&quot;,null)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.ArgumentNullException : Value cannot be null.
+Parameter name: uriString]]></message>
+                      <stack-trace><![CDATA[at System.Uri..ctor(String uriString)
+at System.Web.Services.Protocols.WebClientProtocol.set_Url(String value)
+at SSRSTest.RSWebReference.ReportExecutionService.set_Url(String value) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\Web References\RSWebReference\Reference.cs:line 148
+at SSRSTest.ReportTester.ReportExists(String reportPath, String ssrsUrl) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\ReportTester.cs:line 15
+at SSRSTest.ReportDeploymentTest.DoesReportExist(Int32 reportNumber, String reportPath, String ssrsUrl) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\Program.cs:line 126
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="SSRSTest.ReportDeploymentTest.DoesReportExist(400,&quot;/Trade Surveillance Group/GSCS Pre Settlement Price Checking Report&quot;,null)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.ArgumentNullException : Value cannot be null.
+Parameter name: uriString]]></message>
+                      <stack-trace><![CDATA[at System.Uri..ctor(String uriString)
+at System.Web.Services.Protocols.WebClientProtocol.set_Url(String value)
+at SSRSTest.RSWebReference.ReportExecutionService.set_Url(String value) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\Web References\RSWebReference\Reference.cs:line 148
+at SSRSTest.ReportTester.ReportExists(String reportPath, String ssrsUrl) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\ReportTester.cs:line 15
+at SSRSTest.ReportDeploymentTest.DoesReportExist(Int32 reportNumber, String reportPath, String ssrsUrl) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\Program.cs:line 126
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="SSRSTest.ReportDeploymentTest.DoesReportExist(442,&quot;/Fixed Income/Dealers/Fixed Income Dealing Statistics&quot;,null)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.ArgumentNullException : Value cannot be null.
+Parameter name: uriString]]></message>
+                      <stack-trace><![CDATA[at System.Uri..ctor(String uriString)
+at System.Web.Services.Protocols.WebClientProtocol.set_Url(String value)
+at SSRSTest.RSWebReference.ReportExecutionService.set_Url(String value) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\Web References\RSWebReference\Reference.cs:line 148
+at SSRSTest.ReportTester.ReportExists(String reportPath, String ssrsUrl) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\ReportTester.cs:line 15
+at SSRSTest.ReportDeploymentTest.DoesReportExist(Int32 reportNumber, String reportPath, String ssrsUrl) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\Program.cs:line 126
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="ReportRenderTest" executed="True" result="Failure" success="False" time="0.020" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="DoesReportRender" executed="True" result="Failure" success="False" time="0.019" asserts="0">
+                <categories>
+                  <category name="SSRSTest" />
+                </categories>
+                <results>
+                  <test-case name="SSRSTest.ReportRenderTest.DoesReportRender(135,&quot;/Fixed Income/Dealers/FI Turnover New Issues&quot;,null)" executed="True" result="Error" success="False" time="0.004" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.ArgumentNullException : Value cannot be null.
+Parameter name: uriString]]></message>
+                      <stack-trace><![CDATA[at System.Uri..ctor(String uriString)
+at System.Web.Services.Protocols.WebClientProtocol.set_Url(String value)
+at SSRSTest.RSWebReference.ReportExecutionService.set_Url(String value) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\Web References\RSWebReference\Reference.cs:line 148
+at SSRSTest.ReportTester.RenderReport(String reportPath, String ssrsUrl) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\ReportTester.cs:line 61
+at SSRSTest.ReportRenderTest.DoesReportRender(Int32 reportNumber, String reportPath, String ssrsUrl) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\Program.cs:line 111
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="SSRSTest.ReportRenderTest.DoesReportRender(167,&quot;/IIS/Custody Cash/Custodian Fund Balances Report&quot;,null)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.ArgumentNullException : Value cannot be null.
+Parameter name: uriString]]></message>
+                      <stack-trace><![CDATA[at System.Uri..ctor(String uriString)
+at System.Web.Services.Protocols.WebClientProtocol.set_Url(String value)
+at SSRSTest.RSWebReference.ReportExecutionService.set_Url(String value) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\Web References\RSWebReference\Reference.cs:line 148
+at SSRSTest.ReportTester.RenderReport(String reportPath, String ssrsUrl) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\ReportTester.cs:line 61
+at SSRSTest.ReportRenderTest.DoesReportRender(Int32 reportNumber, String reportPath, String ssrsUrl) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\Program.cs:line 111
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="SSRSTest.ReportRenderTest.DoesReportRender(231,&quot;/Oversight MI/Front Office Transaction Volumes&quot;,null)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.ArgumentNullException : Value cannot be null.
+Parameter name: uriString]]></message>
+                      <stack-trace><![CDATA[at System.Uri..ctor(String uriString)
+at System.Web.Services.Protocols.WebClientProtocol.set_Url(String value)
+at SSRSTest.RSWebReference.ReportExecutionService.set_Url(String value) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\Web References\RSWebReference\Reference.cs:line 148
+at SSRSTest.ReportTester.RenderReport(String reportPath, String ssrsUrl) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\ReportTester.cs:line 61
+at SSRSTest.ReportRenderTest.DoesReportRender(Int32 reportNumber, String reportPath, String ssrsUrl) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\Program.cs:line 111
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="SSRSTest.ReportRenderTest.DoesReportRender(233,&quot;/Quants/Quants Account Summary&quot;,null)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.ArgumentNullException : Value cannot be null.
+Parameter name: uriString]]></message>
+                      <stack-trace><![CDATA[at System.Uri..ctor(String uriString)
+at System.Web.Services.Protocols.WebClientProtocol.set_Url(String value)
+at SSRSTest.RSWebReference.ReportExecutionService.set_Url(String value) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\Web References\RSWebReference\Reference.cs:line 148
+at SSRSTest.ReportTester.RenderReport(String reportPath, String ssrsUrl) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\ReportTester.cs:line 61
+at SSRSTest.ReportRenderTest.DoesReportRender(Int32 reportNumber, String reportPath, String ssrsUrl) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\Program.cs:line 111
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="SSRSTest.ReportRenderTest.DoesReportRender(390,&quot;/Risk/Non Standard Settlements Report&quot;,null)" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.ArgumentNullException : Value cannot be null.
+Parameter name: uriString]]></message>
+                      <stack-trace><![CDATA[at System.Uri..ctor(String uriString)
+at System.Web.Services.Protocols.WebClientProtocol.set_Url(String value)
+at SSRSTest.RSWebReference.ReportExecutionService.set_Url(String value) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\Web References\RSWebReference\Reference.cs:line 148
+at SSRSTest.ReportTester.RenderReport(String reportPath, String ssrsUrl) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\ReportTester.cs:line 61
+at SSRSTest.ReportRenderTest.DoesReportRender(Int32 reportNumber, String reportPath, String ssrsUrl) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\Program.cs:line 111
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="SSRSTest.ReportRenderTest.DoesReportRender(400,&quot;/Trade Surveillance Group/GSCS Pre Settlement Price Checking Report&quot;,null)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.ArgumentNullException : Value cannot be null.
+Parameter name: uriString]]></message>
+                      <stack-trace><![CDATA[at System.Uri..ctor(String uriString)
+at System.Web.Services.Protocols.WebClientProtocol.set_Url(String value)
+at SSRSTest.RSWebReference.ReportExecutionService.set_Url(String value) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\Web References\RSWebReference\Reference.cs:line 148
+at SSRSTest.ReportTester.RenderReport(String reportPath, String ssrsUrl) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\ReportTester.cs:line 61
+at SSRSTest.ReportRenderTest.DoesReportRender(Int32 reportNumber, String reportPath, String ssrsUrl) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\Program.cs:line 111
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="SSRSTest.ReportRenderTest.DoesReportRender(442,&quot;/Fixed Income/Dealers/Fixed Income Dealing Statistics&quot;,null)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.ArgumentNullException : Value cannot be null.
+Parameter name: uriString]]></message>
+                      <stack-trace><![CDATA[at System.Uri..ctor(String uriString)
+at System.Web.Services.Protocols.WebClientProtocol.set_Url(String value)
+at SSRSTest.RSWebReference.ReportExecutionService.set_Url(String value) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\Web References\RSWebReference\Reference.cs:line 148
+at SSRSTest.ReportTester.RenderReport(String reportPath, String ssrsUrl) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\ReportTester.cs:line 61
+at SSRSTest.ReportRenderTest.DoesReportRender(Int32 reportNumber, String reportPath, String ssrsUrl) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\Program.cs:line 111
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

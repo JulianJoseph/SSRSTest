@@ -1,0 +1,9 @@
+C:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\bin\SIT\SSRSTest.dll.config
+C:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\bin\SIT\SSRSTest.dll
+C:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\bin\SIT\SSRSTest.XmlSerializers.dll
+C:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\bin\SIT\SSRSTest.pdb
+C:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\bin\SIT\nunit.framework.dll
+C:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\bin\SIT\nunit.framework.xml
+C:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\obj\SIT\SSRSTest.dll
+C:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\obj\SIT\SSRSTest.pdb
+C:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\obj\SIT\SSRSTest.XmlSerializers.dll

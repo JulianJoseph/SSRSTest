@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\bin\DEV\SSRSTest.dll" total="14" errors="1" failures="1" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-03-30" time="15:15:37">
+  <environment nunit-version="2.6.2.12296" clr-version="4.0.30319.18444" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.2\bin" machine-name="GBTAMD5099" user="cg4t" user-domain="EUROPE1" />
+  <culture-info current-culture="en-GB" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\bin\DEV\SSRSTest.dll" executed="True" result="Failure" success="False" time="323.141" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="SSRSTest" executed="True" result="Failure" success="False" time="323.125" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="ReportDeploymentTest" executed="True" result="Success" success="True" time="2.514" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="DoesReportExist" executed="True" result="Success" success="True" time="2.507" asserts="0">
+                <categories>
+                  <category name="SSRSTest" />
+                </categories>
+                <results>
+                  <test-case name="SSRSTest.ReportDeploymentTest.DoesReportExist(135,&quot;/Fixed Income/Dealers/FI Turnover New Issues&quot;,&quot;http://gbltcdevfowr01/ReportServer/ReportExecution2005.asmx&quot;)" executed="True" result="Success" success="True" time="1.558" asserts="1" />
+                  <test-case name="SSRSTest.ReportDeploymentTest.DoesReportExist(167,&quot;/IIS/Custody Cash/Custodian Fund Balances Report&quot;,&quot;http://gbltcdevfowr01/ReportServer/ReportExecution2005.asmx&quot;)" executed="True" result="Success" success="True" time="0.074" asserts="1" />
+                  <test-case name="SSRSTest.ReportDeploymentTest.DoesReportExist(231,&quot;/Oversight MI/Front Office Transaction Volumes&quot;,&quot;http://gbltcdevfowr01/ReportServer/ReportExecution2005.asmx&quot;)" executed="True" result="Success" success="True" time="0.422" asserts="1" />
+                  <test-case name="SSRSTest.ReportDeploymentTest.DoesReportExist(233,&quot;/Quants/Quants Account Summary&quot;,&quot;http://gbltcdevfowr01/ReportServer/ReportExecution2005.asmx&quot;)" executed="True" result="Success" success="True" time="0.106" asserts="1" />
+                  <test-case name="SSRSTest.ReportDeploymentTest.DoesReportExist(390,&quot;/Risk/Non Standard Settlements Report&quot;,&quot;http://gbltcdevfowr01/ReportServer/ReportExecution2005.asmx&quot;)" executed="True" result="Success" success="True" time="0.081" asserts="1" />
+                  <test-case name="SSRSTest.ReportDeploymentTest.DoesReportExist(400,&quot;/Trade Surveillance Group/GSCS Pre Settlement Price Checking Report&quot;,&quot;http://gbltcdevfowr01/ReportServer/ReportExecution2005.asmx&quot;)" executed="True" result="Success" success="True" time="0.088" asserts="1" />
+                  <test-case name="SSRSTest.ReportDeploymentTest.DoesReportExist(442,&quot;/Fixed Income/Dealers/Fixed Income Dealing Statistics&quot;,&quot;http://gbltcdevfowr01/ReportServer/ReportExecution2005.asmx&quot;)" executed="True" result="Success" success="True" time="0.150" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="ReportRenderTest" executed="True" result="Failure" success="False" time="320.607" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="DoesReportRender" executed="True" result="Failure" success="False" time="320.607" asserts="0">
+                <categories>
+                  <category name="SSRSTest" />
+                </categories>
+                <results>
+                  <test-case name="SSRSTest.ReportRenderTest.DoesReportRender(135,&quot;/Fixed Income/Dealers/FI Turnover New Issues&quot;,&quot;http://gbltcdevfowr01/ReportServer/ReportExecution2005.asmx&quot;)" executed="True" result="Success" success="True" time="4.869" asserts="1" />
+                  <test-case name="SSRSTest.ReportRenderTest.DoesReportRender(167,&quot;/IIS/Custody Cash/Custodian Fund Balances Report&quot;,&quot;http://gbltcdevfowr01/ReportServer/ReportExecution2005.asmx&quot;)" executed="True" result="Success" success="True" time="1.450" asserts="1" />
+                  <test-case name="SSRSTest.ReportRenderTest.DoesReportRender(231,&quot;/Oversight MI/Front Office Transaction Volumes&quot;,&quot;http://gbltcdevfowr01/ReportServer/ReportExecution2005.asmx&quot;)" executed="True" result="Success" success="True" time="2.315" asserts="1" />
+                  <test-case name="SSRSTest.ReportRenderTest.DoesReportRender(233,&quot;/Quants/Quants Account Summary&quot;,&quot;http://gbltcdevfowr01/ReportServer/ReportExecution2005.asmx&quot;)" executed="True" result="Failure" success="False" time="0.722" asserts="1">
+                    <failure>
+                      <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                      <stack-trace><![CDATA[at SSRSTest.ReportRenderTest.DoesReportRender(Int32 reportNumber, String reportPath, String ssrsUrl) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\Program.cs:line 95
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="SSRSTest.ReportRenderTest.DoesReportRender(390,&quot;/Risk/Non Standard Settlements Report&quot;,&quot;http://gbltcdevfowr01/ReportServer/ReportExecution2005.asmx&quot;)" executed="True" result="Success" success="True" time="3.402" asserts="1" />
+                  <test-case name="SSRSTest.ReportRenderTest.DoesReportRender(400,&quot;/Trade Surveillance Group/GSCS Pre Settlement Price Checking Report&quot;,&quot;http://gbltcdevfowr01/ReportServer/ReportExecution2005.asmx&quot;)" executed="True" result="Error" success="False" time="300.196" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.Net.WebException : The operation has timed out]]></message>
+                      <stack-trace><![CDATA[at System.Web.Services.Protocols.WebClientProtocol.GetWebResponse(WebRequest request)
+at System.Web.Services.Protocols.HttpWebClientProtocol.GetWebResponse(WebRequest request)
+at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+at SSRSTest.RSWebReference.ReportExecutionService.Render(String Format, String DeviceInfo, String& Extension, String& MimeType, String& Encoding, Warning[]& Warnings, String[]& StreamIds) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\Web References\RSWebReference\Reference.cs:line 633
+at SSRSTest.ReportTester.RenderReport(String reportPath, String ssrsUrl) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\ReportTester.cs:line 164
+at SSRSTest.ReportRenderTest.DoesReportRender(Int32 reportNumber, String reportPath, String ssrsUrl) in c:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\Program.cs:line 94
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="SSRSTest.ReportRenderTest.DoesReportRender(442,&quot;/Fixed Income/Dealers/Fixed Income Dealing Statistics&quot;,&quot;http://gbltcdevfowr01/ReportServer/ReportExecution2005.asmx&quot;)" executed="True" result="Success" success="True" time="7.556" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

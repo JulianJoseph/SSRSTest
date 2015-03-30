@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type='text/xsl' href='..\..\Build\ReportLinks.xslt'?>
+<reportConfig title="Robin FORPT SSRS Report Config" initiator="Julian Joseph">
+  <reports>
+    <report subfolder="Fixed Income/Dealers" datasource="FORPT" filename="135_FI_Turnover_New_Issues.rdl" description="Fixed Income Turnover New Issues Report" location="Shared Data Sources">FI Turnover New Issues</report>
+    <report subfolder="IIS/Custody Cash" datasource="FORPT" filename="167_Custodian_Fund_Balances_Report.rdl" description="Custodian Fund Balances Report" location="Shared Data Sources">Custodian Fund Balances Report</report>
+    <report subfolder="Oversight MI" datasource="FORPT" filename="231_Front_Office_Transaction_Volumes.rdl" description="Front Office Transaction Volumes" location="Shared Data Sources">Front Office Transaction Volumes</report>
+    <report subfolder="Quants" datasource="FORPT" filename="233_Quants_Account_Summary.rdl" description="Quants Account Summary" location="Shared Data Sources">Quants Account Summary</report>
+    <report subfolder="Risk" datasource="FORPT" filename="390_Non_Standard_Settlements_Report.rdl" description="Non Standard Settlements Report" location="Shared Data Sources">Non Standard Settlements Report</report>
+    <report subfolder="Trade Surveillance Group" datasource="FORPT" filename="400_GSCS_Pre Settlement_Price_Checking_Report.rdl" description="GSCS Pre Settlement Price Checking Report" location="Shared Data Sources">GSCS Pre Settlement Price Checking Report</report>
+    <report subfolder="Fixed Income/Dealers" datasource="FORPT" filename="442_Fixed_Income_Dealing_Statistics.rdl" description="Fixed Income Dealing Statistics" location="Shared Data Sources">Fixed Income Dealing Statistics</report>
+  </reports>
+</reportConfig>

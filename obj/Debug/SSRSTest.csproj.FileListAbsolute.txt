@@ -1,0 +1,7 @@
+C:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\bin\Debug\SSRSTest.dll.config
+C:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\bin\Debug\SSRSTest.dll
+C:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\bin\Debug\SSRSTest.pdb
+C:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\bin\Debug\nunit.framework.dll
+C:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\bin\Debug\nunit.framework.xml
+C:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\obj\Debug\SSRSTest.dll
+C:\Users\cg4t\AppData\Local\Temporary Projects\SSRSTest\obj\Debug\SSRSTest.pdb
